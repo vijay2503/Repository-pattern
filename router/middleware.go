@@ -18,6 +18,7 @@ import (
 
 var userRepo repository.UserRepo
 
+//function Init
 func init() {
 	if err := godotenv.Load("dbConfig.env"); err != nil {
 		log.Fatal("Error loading .env file")
